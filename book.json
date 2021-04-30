@@ -1,0 +1,65 @@
+{
+  "title": "Model zoo",
+  "author" : "Jie Gao",
+  "description" : "我第一本书的描述，很好",
+  "language" : "zh-hans",
+  "structure": {
+      "readme": "NLP.md"
+  },
+
+  "plugins": [
+      "-lunr",
+      "-page-treeview",
+      "-search",
+      "search-pro",
+      "chapter-fold",
+      "back-to-top-button",
+      "expandable-chapters",
+      "edit-link",
+      "splitter",
+      "heading-anchors",
+      "simpletabs",
+      "theme-fexa"
+  ],
+
+  "variables": {
+    "themeFexa":{
+        "nav":[
+            {
+              "url":"http://...",
+              "target":"_blank",
+              "name": "Github"
+            }
+        ]
+    }
+  },
+  "pluginsConfig": {
+      "theme-fexa":{
+        "search-placeholder":"输入关键字搜索", 
+        "logo":"./logo.png", 
+        "favicon": "./favicon.ico" 
+      },
+      "anchor-navigation-ex": {
+          "isShowTocTitleIcon": true
+      },
+
+      "edit-link": {
+        "base": "//github.com/yulilong/book/edit/master",
+        "label": "编辑此页面"
+      },
+      
+      "page-treeview": {
+        "copyright": "Copyright &#169; aleen42",
+        "minHeaderCount": "2",
+        "minHeaderDeep": "2"
+      }
+  },
+
+  "styles": {
+      "website": "styles/website.css",
+      "ebook": "styles/ebook.css",
+      "pdf": "styles/pdf.css",
+      "mobi": "styles/mobi.css",
+      "epub": "styles/epub.css"
+  }
+}
